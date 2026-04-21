@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <NextThemeProvider>
           <NavBar></NavBar>
-          <main>{children}</main>
+          <mai className="container mx-auto">{children}</mai>
         </NextThemeProvider>
       </body>
     </html>
